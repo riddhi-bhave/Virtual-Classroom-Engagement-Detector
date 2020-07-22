@@ -1,0 +1,24 @@
+{
+  "name": "engagment-backend",
+  "version": "1.0.0",
+  "description": "This covers all the different endpoints of the engagement application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.0.0",
+    "@google-cloud/storage": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "multer-google-storage": "^1.3.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "uuid": "^8.2.0"
+  }
+}
